@@ -1,0 +1,80 @@
+body {
+  background-color: #2A2A2A;
+  color: #EEEEEE;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13pt;
+  line-height: 1.4rem;
+  margin-top: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #E0A000;
+}
+
+a:visited {
+  color: #D0A070;
+}
+
+a:hover {
+  cursor: pointer;
+  border-bottom: 2px dotted;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+
+div.main-content {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 850px;
+}
+
+div.outline-section {
+  border-top: 3px #FFFFFF solid;
+  padding: 1rem 0;
+}
+
+div.enter-button {
+  text-align: center;
+}
+
+div.enter-button a {
+  width: auto;
+  display: inline-block;
+  padding: 1.5rem;
+  margin-top: 12rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #FFFFFF;
+  border: 4px #FFFFFF solid;
+  border-radius: 1rem;
+}
+
+div.enter-button a:hover {
+  background-color: #FFFFFF;
+  color: #2A2A2A;
+}
+
+img.bio-image {
+  float: left;
+  width: 180px;
+  border-radius: 8px;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}
+
