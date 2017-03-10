@@ -34,15 +34,48 @@ h2 {
   margin-bottom: 0.8rem;
 }
 
-div.main-content {
+.hide-large {
+  display: none;
+}
+
+div.main-page {
   margin: 0 auto;
   padding: 0 1rem;
   max-width: 850px;
 }
 
+div.nav {
+  vertical-align: top;
+  text-align: right;
+  display: inline-block;
+  width: 90px;
+  margin-right: 5px;
+  border-right: 3px #000000 solid;
+}
+
+div.nav .item {
+  display: block;
+  padding: 0.2rem 0.3rem;
+  text-decoration: none;
+  color: black;
+  margin: 0.5rem 0;
+}
+
+div.nav .item.selected,
+div.nav .item:hover {
+  background-color: #000000;
+  color: #FFFFF5;
+  border-radius: 5px 0 0 5px;
+}
+
+div.content {
+  display: inline-block;
+  width: 740px;
+}
+
 div.outline-section {
   border-top: 3px #000000 solid;
-  padding: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 div.enter-button {
@@ -75,3 +108,33 @@ img.bio-image {
   margin-right: 1rem;
 }
 
+@media (max-width: 870px) {
+
+  .hide-large {
+    display: block;
+  }
+
+  div.outline-section {
+    margin-bottom: 0.5rem;
+  }
+
+  div.nav {
+    display: block;
+    width: auto;
+    border: none;
+  }
+
+  div.content {
+    display: block;
+    width: auto;
+  }
+
+  div.nav .item {
+    text-align: center;
+  }
+
+  div.nav .item:hover,
+  div.nav .item.selected{
+    border-radius: 8px;
+  }
+}
