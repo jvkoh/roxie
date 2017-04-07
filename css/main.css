@@ -82,22 +82,14 @@ div.enter-button {
   text-align: center;
 }
 
-div.enter-button a {
+div.enter-button .button {
   width: auto;
-  display: inline-block;
   padding: 1.5rem;
   margin-top: 12rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #000000;
-  border: 4px #000000 solid;
+  border-width: 4px;
   border-radius: 1rem;
-}
-
-div.enter-button a:hover {
-  background-color: #000000;
-  color: #FFFFF5;
-  text-decoration: none;
 }
 
 img.bio-image {
@@ -106,6 +98,28 @@ img.bio-image {
   border-radius: 8px;
   margin-top: 0.2rem;
   margin-right: 1rem;
+}
+
+.instagram-button-container {
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.button {
+  display: inline-block;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  border: 3px #000000 solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: #FFFFF5;
+  text-decoration: none;
 }
 
 @media (max-width: 870px) {
