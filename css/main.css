@@ -7,6 +7,14 @@ body {
   margin-top: 1rem;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -14,6 +22,10 @@ p {
 a {
   text-decoration: none;
   color: #D0A000;
+}
+
+.blue-text {
+  color: #5756d6;
 }
 
 a:hover {
@@ -78,6 +90,16 @@ div.outline-section {
   margin-bottom: 1rem;
 }
 
+.enter-button-pic {
+  width: 100%;
+  display: block;
+}
+
+.enter-pic {
+  margin-top: 20px;
+  width: 100%;
+}
+
 div.enter-button {
   text-align: center;
 }
@@ -100,6 +122,14 @@ img.bio-image {
   margin-right: 1rem;
 }
 
+img.manifest-image {
+  float: left;
+  width: 200px;
+  border-radius: 8px;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}
+
 .instagram-button-container {
   text-align: center;
   margin: 1rem 0 2rem;
@@ -114,6 +144,18 @@ img.bio-image {
   border: 3px #000000 solid;
   border-radius: 0.5rem;
   padding: 0.5rem;
+}
+
+.float-photo {
+  display: block;
+  float: left;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 0 10px 10px;
+}
+
+.photobox {
+  width: 100%;
 }
 
 .button:hover {
